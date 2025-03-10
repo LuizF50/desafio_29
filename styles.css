@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./images/background.png'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+  }
+  
+  textarea {
+    width: calc(100% - 20px);
+    height: 100px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  textarea, button {
+    font-size: 16px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  button {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  #convertButton {
+    background-color: #e63946;
+    color: #fff;
+  }
+  
+  #resetButton {
+    background-color: #6c757d;
+  }
+  
+  #result h2 {
+    margin-top: 20px;
+  }
+  
+  #outputText {
+    font-family: monospace;
+  }
+  
